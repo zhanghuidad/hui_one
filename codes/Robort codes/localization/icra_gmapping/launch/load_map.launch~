@@ -1,0 +1,8 @@
+<!-- for the color of code-->
+<launch>
+	<!--load competition area map-->
+	<node pkg="map_server" 	type="map_server" 	name="load_area_map" args="$(find icra_gmapping)/maps/area.yaml">
+	<!--change topic from /map -->
+	<!--remap from="map" to ="/icra_gmapping/map"/-->
+	</node>
+</launch>

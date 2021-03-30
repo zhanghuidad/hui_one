@@ -1,0 +1,10 @@
+<!--color-->
+<launch>
+	<!--load competition area map-->
+	<node pkg="map_server" 	type="map_server" 	name="load_area_map" args="$(find icra_gmapping)/maps/icra2019.yaml">
+	<!--change topic from /map -->
+	<!--remap from="map" to ="/icra_gmapping/map"/-->
+	</node>
+        <include file="$(find amcl)/launch/amcl_omni.launch" />
+
+</launch>

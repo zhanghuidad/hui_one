@@ -1,0 +1,9 @@
+para_gimbal {
+	Roll_compensate: 0.0
+	Pitch_compensate: 0.0
+	Yaw_compensate: 0.0
+	X_compensate: 0.0
+	Y_compensate: 0.0
+	Z_compensate: 0.15
+}
+  

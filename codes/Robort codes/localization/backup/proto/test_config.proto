@@ -1,0 +1,7 @@
+syntax = "proto2";
+package test;
+
+message TestConfig {
+    required string name = 1;
+    required int32 print_times = 2;
+}

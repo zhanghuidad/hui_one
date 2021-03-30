@@ -1,0 +1,4 @@
+uint16 stage_remain_time
+uint8 game_process
+uint16 remain_hp
+uint16 max_hp

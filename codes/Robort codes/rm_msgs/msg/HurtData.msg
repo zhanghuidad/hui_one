@@ -1,0 +1,2 @@
+uint8 hurt_type
+uint8 hurt_armor_num

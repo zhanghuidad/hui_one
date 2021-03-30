@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(Dft)
+find_package(OpenCV REQUIRED)
+add_executable(Dft dft.cpp)
+target_link_libraries(Dft ${OpenCV_LIBS})

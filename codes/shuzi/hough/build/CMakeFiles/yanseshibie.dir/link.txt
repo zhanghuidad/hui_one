@@ -1,0 +1,1 @@
+/usr/bin/g++-5  -fPIC   -shared -Wl,-soname,libyanseshibie.so -o libyanseshibie.so CMakeFiles/yanseshibie.dir/yanseshibie.cpp.o 

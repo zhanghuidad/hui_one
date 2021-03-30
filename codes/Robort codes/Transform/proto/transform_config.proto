@@ -1,0 +1,11 @@
+syntax = "proto2";
+package transform;
+
+message ParaGimbal{
+    required double Roll_compensate = 1;
+    required double Pitch_compensate = 2;
+    required double Yaw_compensate = 3;
+    required double X_compensate = 4;
+    required double Y_compensate = 5;
+    required double Z_compensate = 6;
+}

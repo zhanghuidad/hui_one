@@ -1,0 +1,11 @@
+<launch>
+ 
+        <param name="mapfile" value="icra.yaml" />
+
+        <param name="path" value="$(find map_server)/test" />
+
+	<node name="map_server" pkg="map_server" type="map_server" output="log" />
+        
+        <include file="$(find amcl)/examples/amcl_omni.launch" />
+
+</launch>
